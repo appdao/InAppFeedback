@@ -1,0 +1,55 @@
+What is In App Feedback
+=======
+For a long time, iPhone && Android app developer was suffering for the communication with their users.  You could not even replay a review, even user just has some misunderstanding about your app.
+
+In App Feedback try to solve this problem. By allow developers to integrate a ViewController in their app, users could make reviews and comments, developer could manage those feedback, giving replay, set as FAQ etc.
+
+In the app store, user must quit the app, then launch the app store app to give a review, but with in-app-feedback, they will more likely to give review because it is as simple as one tap, and after that they could  got back to continue using the app.
+
+We have integrated this "in-app-feedback" in many of our apps(some are in the US top 100), and collected over 50k user reviews, it helps us alot to improve those apps. 
+
+Now it is available to everybody, just obtain a developer key from the website then your app could have the in-app-feedback feature.
+
+
+Adding in-app-feedback to your project
+======================
+
+iPhone
+------------
+
+1, register at [AppDao][] 
+
+2, get your developer key from the Account page, such as: 8st3no2yrs6efg0yzcli4k23bcta492y
+
+3, Clone the in-app-feedback(with a sample) git repository: `git://github.com/appdao/InAppFeedback.git` or check out from google code `http://in-app-feedback.googlecode.com/svn/trunk/`, locate the correspond directory(iPhone or Android), compile and run the sample to make sure there is no problem with the default setting.
+
+4, locate the `FeedbackViewController` directory in that sample, copy the whole directory to your project.
+
+5, in your project, add a button so it could navigate to in-app-feedback,  include `FeedbackViewController.h`, you may want to create a class properties to save memory: FeedbackViewController *feedbackWebViewController;
+then in the correspond IBAction method, add the following code:
+
+    if (feedbackWebViewController==nil) {
+        self.feedbackWebViewController = [[[FeedbackViewController alloc] init] autorelease];
+    }
+    
+    [self presentModalViewController:feedbackWebViewController animated:YES];
+
+6, That's it! if you have encountered any problem,  you could refer to the sample project to see if it works. And also, feel free to report a issue or just send an email to support@appdao.com .
+
+
+Android
+------------
+on the way!
+
+
+
+And then???
+------------
+
+So now you got feedbacks, how to deal with it?
+
+As our experience, your most unhappy customers are your greatest source of learning. Once user give a feedback, consider it seriously and reply ASAP will increases customer loyalty, they could also give you good advice, help you improve the app for free,  and even show it to their friends. In the end will benefit you with both user base and revenue. Enjoy the journey, listen to people what they think about your app, it is amzaing, really.
+
+
+
+[AppDao]: http://www.appdao.com
