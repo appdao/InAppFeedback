@@ -1,6 +1,6 @@
 What is In App Feedback
 =======
-For a long time, iPhone && Android app developer was suffering for the communication with their users.  You could not even replay a review, even user just has some misunderstanding about your app.
+For a long time, iPhone && Android app developer was suffering for the communication with their users.  You could not even reply a review, even user just has some misunderstanding about your app.
 
 In App Feedback try to solve this problem. By allow developers to integrate a ViewController in their app, users could make reviews and comments, developer could manage those feedback, giving replay, set as FAQ etc.
 
