@@ -10,6 +10,11 @@ We have integrated this "in-app-feedback" in many of our apps(some are in the US
 
 Now it is available to everybody, just obtain a developer key from the website then your app could have the in-app-feedback feature.
 
+Screenshots:
+
+
+![](http://appdao.com/images/pics/1.png)
+![](http://appdao.com/images/pics/2.png)
 
 Adding in-app-feedback to your project
 ======================
