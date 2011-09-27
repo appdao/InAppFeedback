@@ -13,8 +13,7 @@ Now it is available to everybody, just obtain a developer key from the website t
 Screenshots:
 
 
-![](http://appdao.com/images/pics/1.png)
-![](http://appdao.com/images/pics/2.png)
+![](http://appdao.com/images/pics/1.png) &nbsp; ![](http://appdao.com/images/pics/2.png)
 
 Adding in-app-feedback to your project
 ======================
